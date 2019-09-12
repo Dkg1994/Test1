@@ -1,42 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  
-  
-  
 
-  <groupId>.com.goibibo.Web</groupId>
-  <artifactId>Goibibo_Desktop1</artifactId>
+  <groupId>.com.goibibo.WebApplication</groupId>
+  <artifactId>DesktopFireFoxBrowsers</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Goibibo_Desktop1</name>
+  <name>DesktopFireFoxBrowsers</name>
   <url>http://maven.apache.org</url>
 
   <properties>
-  
-   <groupId>ExtentReportScreenshot</groupId>
-	<artifactId>ExtentReportScreenshot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
-
-	<name>ExtentReportScreenshot</name>
-	<url>http://maven.apache.org</url>
-    
-  
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
- <distributionManagement>
-    <repository>
-      <id>Goibibo-Desktop-</id>
-      <name>Goibibo-Desktop-</name>
-      <url>https://github.com/Dkg1994/Goibibo-Desktop-</url>
-    </repository>
-</distributionManagement>
-
-
-
 
   <dependencies>
     <dependency>
@@ -46,7 +22,7 @@
       <scope>test</scope>
     </dependency>
     
-        
+       
      <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
@@ -89,15 +65,7 @@
     <artifactId>extentreports</artifactId>
     <version>3.0.0</version>
 </dependency>
-
-<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
-<dependency>
-    <groupId>com.relevantcodes</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>2.41.0</version>
-</dependency>
-  
-  
+    
     
   </dependencies>
   
@@ -136,7 +104,6 @@
   
   
   
-
   
   
 </project>
